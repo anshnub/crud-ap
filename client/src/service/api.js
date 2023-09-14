@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const URL = 'http://localhost:8080';
-const URL = 'https://mern-4rv5.onrender.com/';
+const URL = 'https://mern-4rv5.onrender.com';
 
 export const addUser = async(data) => {
   
