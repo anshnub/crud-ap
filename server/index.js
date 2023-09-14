@@ -16,7 +16,7 @@ app.use(cors());
 
 app.use('/',Routes);
 
-const PORT= 8080;
+const PORT=process.env.PORT || 8080;
 
 const username= process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
